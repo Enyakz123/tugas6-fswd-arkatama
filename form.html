@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/kirim" method="post">
+        <label for="nama"><strong>Nama</strong></label> <br>
+        <input type="text" name="nama" id="nama"> <br>
+        <br>
+
+        <label for="email"><strong>Email</strong></label> <br>
+        <input type="text" name="email" id="email"> <br>
+        <br>
+
+        <label for="nomor_hp"><strong>No Hp</strong></label> <br>
+        <input type="number" name="nomor_hp" id="nomor_hp"> <br>
+        <br>
+
+        <label for="jenis_kelamin"><strong>Jenis Kelamin</strong></label> <br>
+        <input type="radio" name="" id="">Laki-Laki <br>
+        <input type="radio" name="" id="">Perempuan <br>
+        <br>
+
+        <label for="prodi"><strong>Prodi</strong></label> <br>
+        <select name="prodi" id="Pilihan">
+            <option value="" disabled selected>Pilih</option>
+            <option value="">Sistem Infomasi</option>
+            <option value="">Informatika</option>
+            <option value="">Sains Data</option>
+        </select> <br>
+        <br>
+
+        <label for="hobi"><strong>Hobi</strong></label> <br>
+        <input type="checkbox" name="membaca" id="membaca">Membaca <br>
+        <input type="checkbox" name="membaca" id="membaca">Menulis <br>
+        <input type="checkbox" name="membaca" id="membaca">Menyanyi <br>
+        <input type="checkbox" name="membaca" id="membaca">Olahraga <br>
+        <br>
+
+        <label for="alamat"><strong>Alamat</strong></label> <br>
+        <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea> <br>
+        <br>
+
+        <label for="foto_diri"><strong>Foto Diri</strong></label> <br>
+        <input type="file" name="foto_diri" id="foto_diri"> <br>
+        <br>
+
+        <input type="submit" value="Daftar">
+        
+    </form>
+</body>
+</html>
